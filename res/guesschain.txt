@@ -1,0 +1,2 @@
+Guess-Xlogo.png seed: 100000 tap: 0 2021/08/09 18:07:26
+Guess-Xlogo.png seed: 100000 tap: 1 2021/08/09 18:07:26
