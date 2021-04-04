@@ -3,7 +3,21 @@
 Linear feedback shift register, based on the assignment given in the Princeton course COS 126 and the Upenn course CIS 110 || Java 实现的线性反馈移位寄存器，对图片进行编码和解码
 
 ```
-
+.
+│   .gitignore
+│   LICENSE
+│   pipe.png # test iamge for encryption
+│   surprise.png # encrypted picture
+│   README.md
+├───res
+│       guesschain.txt # save guessing records
+│       keychain.txt # save generated key
+└───src
+        BreakPhotoMagic.java # try all possible seeds and all possible taps and finds the picture
+        LFSR.java # simulates the operation of an LFSR
+        PhotoMagic.java # encrypt picture
+        PhotoMagicDeluxe.java # could take an alphanumeric (letters and numbers) password
+        Picture.java # given class to deal eith picture
 ```
 
 ## 1 Overview
