@@ -1,6 +1,6 @@
 # LFSR and Encryption
 
-Linear feedback shift register, based on the assignment given in the Princeton course COS 126 and the Upenn course CIS 110 || Java 实现的线性反馈移位寄存器，对图片进行编码和解码
+Linear feedback shift register, based on the assignment given in the Princeton course COS 126 and the Upenn course CIS 110.
 
 ```
 .
@@ -20,23 +20,27 @@ Linear feedback shift register, based on the assignment given in the Princeton c
         Picture.java # given class to deal eith picture
 ```
 
-## 1 Overview
-- This is based on the assignment given in
-  - [the Princeton course COS 126](https://www.cs.princeton.edu/courses/archive/fall10/cos126/assignments/lfsr.html)
-  - [the Upenn course CIS 110](https://www.cis.upenn.edu/~cis110/13sp/hw/hw04/lfsr.shtml)
-- jdk: openjdk8-redhat
+## Overview
 
-## 2 Requirements
+- This is based on the assignment given in
+  - [Princeton course COS 126](https://www.cs.princeton.edu/courses/archive/fall10/cos126/assignments/lfsr.html)
+  - [Upenn course CIS 110](https://www.cis.upenn.edu/~cis110/13sp/hw/hw04/lfsr.shtml)
+- jdk: `openjdk8-redhat`
+
+## Requirements
+
 - Write a program that can encrypt pictures.
 - In order to encrypt the picture, we need a source of bits which look random to any attacker (pseudo-random).
 - We will generate these using a linear feedback shift register (LFSR) in LFSR.java.
 
-## 3 Reference
+## Reference
+
 - https://introcs.cs.princeton.edu/java/stdlib/javadoc/Picture.html
 - https://www.cs.princeton.edu/courses/archive/fall10/cos126/assignments/lfsr.html
 - https://www.cis.upenn.edu/~cis110/13sp/hw/hw04/lfsr.shtml
 
-## 4 Challenge
+## Challenge
+
 The challenge listed in the assignment:
 > Tell me any ideas you have for decrypting a picture faster.
 >
